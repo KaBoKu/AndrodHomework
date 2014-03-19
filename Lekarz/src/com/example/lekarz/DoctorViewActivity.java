@@ -13,9 +13,7 @@ import android.widget.TextView;
 
 public class DoctorViewActivity extends Activity{
 
-	
-	
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
