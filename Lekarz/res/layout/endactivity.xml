@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Endbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/EndtextView1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="17dp"
+        android:text="@string/reset" />
+
+    <Button
+        android:id="@+id/Endbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Endbutton1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="54dp"
+        android:text="@string/wyslij" />
+
+    <TextView
+        android:id="@+id/EndtextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/brak" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lekarz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="checkbo"></string>
+    <string name="checkbox">Pierwszy raz</string>
+    <string name="nastepny">Następny</string>
+
+    
+    <string-array name="lekarze_arrays">
+        <item>Kardiolog</item>
+        <item>Anestezjolog</item>
+        <item>Stomatolog</item>
+        <item>Lekarz rodzinny</item>
+    </string-array>
+        <string name="wybierz">wybierz</string>
+        <string name="od">Od</string>
+        <string name="doS">Do</string>
+        <string name="reset">Reset</string>
+        <string name="wyslij">Wyślij</string>
+        <string name="brak">Brak</string>
+        <string name="title_second_activity">Data</string>
+        <string name="title_third_activity">Fill</string>
+        <string name="title_fourth_activity">End</string>
+        <string name="komentarz">Komentarz</string>
+        <string name="zobacz_lekarza">Zobacz lekarza</string>
+        <string name="zdjecie_lekarza">Zdjęcie lekarza</string>
+        <string name="Imie">Imię</string>
+        <string name="Brak">Brak</string>
+        <string name="Surname">Nazwisko</string>
+        <string name="back">Powrót</string>
+        <string name="photo">Zdjęcie</string>
+        <string name="title_fivth_activity">Doctor View</string>
+</resources>

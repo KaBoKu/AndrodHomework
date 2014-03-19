@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="39dp"
+        android:contentDescription="@string/photo"
+        android:src="@drawable/doctorimage" />
+
+    <TextView
+        android:id="@+id/DoctorViewtextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="85dp"
+        android:text="@string/Imie" />
+
+    <TextView
+        android:id="@+id/DoctorViewtextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/DoctorViewtextView1"
+        android:layout_below="@+id/DoctorViewtextView1"
+        android:layout_marginTop="21dp"
+        android:text="@string/Surname" />
+
+    <TextView
+        android:id="@+id/DoctorViewtextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DoctorViewtextView3"
+        android:layout_alignLeft="@+id/DoctorViewbutton1"
+        android:text="@string/Brak" />
+
+    <Button
+        android:id="@+id/DoctorViewbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/back" />
+
+    <TextView
+        android:id="@+id/DoctorViewtextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/DoctorViewtextView3"
+        android:layout_alignBottom="@+id/DoctorViewtextView3"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/Brak" />
+
+</RelativeLayout>
