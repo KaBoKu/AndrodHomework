@@ -23,7 +23,8 @@ public final class R {
         public static final int doge=0x7f020002;
         public static final int ic_launcher=0x7f020003;
         public static final int kardiolog=0x7f020004;
-        public static final int stomatolog=0x7f020005;
+        public static final int splash=0x7f020005;
+        public static final int stomatolog=0x7f020006;
     }
     public static final class id {
         public static final int CommentText=0x7f090005;
@@ -35,9 +36,9 @@ public final class R {
         public static final int DatatextView2=0x7f09000a;
         public static final int DoctorViewbutton1=0x7f09000f;
         public static final int DoctorViewtextView1=0x7f09000c;
-        public static final int DoctorViewtextView2=0x7f090010;
+        public static final int DoctorViewtextView2=0x7f09000e;
         public static final int DoctorViewtextView3=0x7f09000d;
-        public static final int DoctorViewtextView4=0x7f09000e;
+        public static final int DoctorViewtextView4=0x7f090010;
         public static final int Endbutton1=0x7f090011;
         public static final int Endbutton2=0x7f090013;
         public static final int EndtextView1=0x7f090012;
@@ -54,6 +55,7 @@ public final class R {
         public static final int dataactivity=0x7f030002;
         public static final int doctorview=0x7f030003;
         public static final int endactivity=0x7f030004;
+        public static final int splashscreen=0x7f030005;
     }
     public static final class menu {
         public static final int activity_main=0x7f080000;
@@ -70,11 +72,13 @@ public final class R {
         public static final int doS=0x7f050008;
         public static final int hello_world=0x7f050001;
         public static final int komentarz=0x7f05000f;
+        public static final int lekarz_app=0x7f050018;
         public static final int menu_settings=0x7f050002;
         public static final int nastepny=0x7f050005;
         public static final int od=0x7f050007;
         public static final int photo=0x7f050016;
         public static final int reset=0x7f050009;
+        public static final int title_first_activity=0x7f050019;
         public static final int title_fivth_activity=0x7f050017;
         public static final int title_fourth_activity=0x7f05000e;
         public static final int title_second_activity=0x7f05000c;

@@ -33,4 +33,6 @@
         <string name="back">Powrót</string>
         <string name="photo">Zdjęcie</string>
         <string name="title_fivth_activity">Doctor View</string>
+        <string name="lekarz_app">Lekarz app</string>
+        <string name="title_first_activity">Main</string>
 </resources>
