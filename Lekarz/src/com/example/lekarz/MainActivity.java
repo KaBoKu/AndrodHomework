@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		Button button = (Button) findViewById(R.id.button1);
 		Button button2 = (Button) findViewById(R.id.button2);
+		Button button3 = (Button) findViewById(R.id.button3);
 		final Spinner spinner = (Spinner) findViewById(R.id.spinner1);
 		final CheckBox checkBox = (CheckBox) findViewById(R.id.chkIos);
 		final SharedPreferences preferences = PreferenceManager
@@ -65,6 +66,17 @@ public class MainActivity extends Activity {
 				intent.putExtra("doctor", spinner.getSelectedItem().toString());
 				startActivity(intent);
 
+			}
+		});
+		
+		
+		button3.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(getApplicationContext(), GalleryActivity.class);
+				startActivity(intent);
 			}
 		});
 	}

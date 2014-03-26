@@ -90,6 +90,7 @@ public final class R {
         public static final int title_fivth_activity=0x7f050017;
         public static final int title_fourth_activity=0x7f05000e;
         public static final int title_second_activity=0x7f05000c;
+        public static final int title_sixth_activity=0x7f05001b;
         public static final int title_third_activity=0x7f05000d;
         public static final int wybierz=0x7f050006;
         public static final int wyslij=0x7f05000a;
