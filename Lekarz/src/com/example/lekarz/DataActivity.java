@@ -12,10 +12,13 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 public class DataActivity extends Activity {
 	@Override
@@ -49,19 +52,21 @@ public class DataActivity extends Activity {
 				Intent intent = new Intent(getApplicationContext(),
 						CommentActivity.class);
 				Date date2 = null;
-				//Date date = Calendar.getInstance().getTime().compareTo(date2);
+			
 				try {
-					date2 = new SimpleDateFormat("MM/dd/yy").parse(editText2
+					date2 = new SimpleDateFormat("dd/MM/yy").parse(editText2
 							.getText().toString());
-					System.out.println(date2);
 				} catch (ParseException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 					Toast.makeText(getApplicationContext(), "B³¹d w dacie",
 							3000).show();
 				}
-				if (date2 == null)
-					Toast.makeText(getApplicationContext(), "Wpisz datê", 3000);
+				if (date2 == null){
+					Animation shake = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.shake);
+					editText2.startAnimation(shake);
+					//Toast.makeText(getApplicationContext(), "Wpisz datê", 3000);
+				}
 				else {
 					if (Calendar.getInstance().getTime().compareTo(date2) < 0) {
 

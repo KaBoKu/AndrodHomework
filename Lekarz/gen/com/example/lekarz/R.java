@@ -11,6 +11,8 @@ public final class R {
     public static final class anim {
         public static final int activityanimationin=0x7f040000;
         public static final int activityanimationout=0x7f040001;
+        public static final int cycle_7=0x7f040002;
+        public static final int shake=0x7f040003;
     }
     public static final class array {
         public static final int lekarze_arrays=0x7f060000;
