@@ -23,30 +23,37 @@ public final class R {
         public static final int doge=0x7f020002;
         public static final int ic_launcher=0x7f020003;
         public static final int kardiolog=0x7f020004;
-        public static final int splash=0x7f020005;
-        public static final int stomatolog=0x7f020006;
+        public static final int przychodnia1=0x7f020005;
+        public static final int przychodnia2=0x7f020006;
+        public static final int przychodnia3=0x7f020007;
+        public static final int przychodnia4=0x7f020008;
+        public static final int przychodnia5=0x7f020009;
+        public static final int splash=0x7f02000a;
+        public static final int stomatolog=0x7f02000b;
     }
     public static final class id {
-        public static final int CommentText=0x7f090005;
-        public static final int Commentbutton1=0x7f090004;
-        public static final int Databutton1=0x7f090006;
-        public static final int DataeditText1=0x7f090007;
-        public static final int DataeditText2=0x7f090008;
-        public static final int DatatextView1=0x7f090009;
-        public static final int DatatextView2=0x7f09000a;
-        public static final int DoctorViewbutton1=0x7f09000f;
-        public static final int DoctorViewtextView1=0x7f09000c;
-        public static final int DoctorViewtextView2=0x7f09000e;
-        public static final int DoctorViewtextView3=0x7f09000d;
-        public static final int DoctorViewtextView4=0x7f090010;
-        public static final int Endbutton1=0x7f090011;
-        public static final int Endbutton2=0x7f090013;
-        public static final int EndtextView1=0x7f090012;
+        public static final int CommentText=0x7f090006;
+        public static final int Commentbutton1=0x7f090005;
+        public static final int Databutton1=0x7f090007;
+        public static final int DataeditText1=0x7f090008;
+        public static final int DataeditText2=0x7f090009;
+        public static final int DatatextView1=0x7f09000a;
+        public static final int DatatextView2=0x7f09000b;
+        public static final int DoctorViewbutton1=0x7f090010;
+        public static final int DoctorViewtextView1=0x7f09000d;
+        public static final int DoctorViewtextView2=0x7f09000f;
+        public static final int DoctorViewtextView3=0x7f09000e;
+        public static final int DoctorViewtextView4=0x7f090011;
+        public static final int Endbutton1=0x7f090012;
+        public static final int Endbutton2=0x7f090014;
+        public static final int EndtextView1=0x7f090013;
         public static final int button1=0x7f090000;
         public static final int button2=0x7f090003;
+        public static final int button3=0x7f090004;
         public static final int chkIos=0x7f090001;
-        public static final int imageView1=0x7f09000b;
-        public static final int menu_settings=0x7f090014;
+        public static final int gallery1=0x7f090015;
+        public static final int imageView1=0x7f09000c;
+        public static final int menu_settings=0x7f090016;
         public static final int spinner1=0x7f090002;
     }
     public static final class layout {
@@ -55,7 +62,8 @@ public final class R {
         public static final int dataactivity=0x7f030002;
         public static final int doctorview=0x7f030003;
         public static final int endactivity=0x7f030004;
-        public static final int splashscreen=0x7f030005;
+        public static final int galleryactivity=0x7f030005;
+        public static final int splashscreen=0x7f030006;
     }
     public static final class menu {
         public static final int activity_main=0x7f080000;
@@ -87,6 +95,7 @@ public final class R {
         public static final int wyslij=0x7f05000a;
         public static final int zdjecie_lekarza=0x7f050011;
         public static final int zobacz_lekarza=0x7f050010;
+        public static final int zobacz_przychodnie=0x7f05001a;
     }
     public static final class style {
         /** 
