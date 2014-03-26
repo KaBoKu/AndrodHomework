@@ -21,9 +21,9 @@
         <string name="reset">Reset</string>
         <string name="wyslij">Wyślij</string>
         <string name="brak">Brak</string>
-        <string name="title_second_activity">Data</string>
-        <string name="title_third_activity">Fill</string>
-        <string name="title_fourth_activity">End</string>
+        <string name="title_second_activity">Wybierz datę</string>
+        <string name="title_third_activity">Wpisz komentarz</string>
+        <string name="title_fourth_activity">Wyślij</string>
         <string name="komentarz">Komentarz</string>
         <string name="zobacz_lekarza">Zobacz lekarza</string>
         <string name="zdjecie_lekarza">Zdjęcie lekarza</string>
@@ -34,7 +34,7 @@
         <string name="photo">Zdjęcie</string>
         <string name="title_fivth_activity">Doctor View</string>
         <string name="lekarz_app">Lekarz app</string>
-        <string name="title_first_activity">Main</string>
+        <string name="title_first_activity">Wybierz doktora</string>
         <string name="zobacz_przychodnie">Zobacz przychodnię</string>
-        <string name="title_sixth_activity">Gallery</string>
+        <string name="title_sixth_activity">Galeria</string>
 </resources>

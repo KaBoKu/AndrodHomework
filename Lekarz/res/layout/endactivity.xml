@@ -5,16 +5,6 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/Endbutton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/EndtextView1"
-        android:layout_marginBottom="20dp"
-        android:layout_marginRight="17dp"
-        android:text="@string/reset" />
-
-    <Button
         android:id="@+id/Endbutton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,5 +22,14 @@
         android:layout_marginLeft="39dp"
         android:layout_marginTop="60dp"
         android:text="@string/brak" />
+
+    <Button
+        android:id="@+id/Endbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EndtextView1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="19dp"
+        android:text="@string/reset" />
 
 </RelativeLayout>

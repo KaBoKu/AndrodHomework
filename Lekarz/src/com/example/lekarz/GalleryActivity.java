@@ -35,7 +35,7 @@ public class GalleryActivity extends Activity{
 		public void onItemClick(AdapterView<?> parent, View v, int position,
 				long id) {
 			// TODO Auto-generated method stub
-			Toast.makeText(GalleryActivity.this, "Your selected position = " + position, Toast.LENGTH_SHORT).show();
+			//Toast.makeText(GalleryActivity.this, "Your selected position = " + position, Toast.LENGTH_SHORT).show();
             // show the selected Image
             selectedImage.setImageResource(mImageIds[position]);
 		}

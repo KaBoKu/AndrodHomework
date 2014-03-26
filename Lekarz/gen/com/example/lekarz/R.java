@@ -44,9 +44,9 @@ public final class R {
         public static final int DoctorViewtextView2=0x7f09000f;
         public static final int DoctorViewtextView3=0x7f09000e;
         public static final int DoctorViewtextView4=0x7f090011;
-        public static final int Endbutton1=0x7f090012;
-        public static final int Endbutton2=0x7f090014;
-        public static final int EndtextView1=0x7f090013;
+        public static final int Endbutton1=0x7f090013;
+        public static final int Endbutton2=0x7f090012;
+        public static final int EndtextView1=0x7f090014;
         public static final int button1=0x7f090000;
         public static final int button2=0x7f090003;
         public static final int button3=0x7f090004;

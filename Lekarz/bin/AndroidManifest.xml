@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="17" />
+        android:targetSdkVersion="16" />
 
     <application
         android:allowBackup="true"
@@ -50,6 +50,7 @@
           
           <activity 
             android:name=".GalleryActivity" 
+            android:noHistory="true"
             android:label="@string/title_sixth_activity">
         </activity>
            
