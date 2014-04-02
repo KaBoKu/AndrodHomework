@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DaysOfWeek</string>
+    <string name="frist_activity">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Next">Dalej</string>
+    <string name="bad_login">Zły login</string>
+    <string name="title_second_activity">Obliczenia</string>
+    <string name="dzien_tygodnia">Dzień Tygodnia</string>
+    <string name="powrot">Powrót</string>
+
+</resources>

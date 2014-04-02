@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="569dp"
+        android:label="fewfwef" >
+
+        <DatePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:calendarViewShown="false" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button2"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="22dp"
+            android:text="@string/dzien_tygodnia" />
+
+        <TextView
+            android:id="@+id/dateText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="1"
+            android:textColor="@color/light_font"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dateText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dateText1"
+            android:layout_below="@+id/dateText1"
+            android:layout_marginTop="42dp"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/dateText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dateText2"
+            android:layout_below="@+id/dateText2"
+            android:layout_marginTop="36dp"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/dateText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/dateText3"
+            android:layout_below="@+id/dateText3"
+            android:layout_marginTop="29dp"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/dateText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dateText4"
+            android:layout_below="@+id/dateText4"
+            android:layout_marginTop="36dp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/datePicker1"
+            android:layout_marginTop="106dp"
+            android:layout_toRightOf="@+id/button1"
+            android:text="@string/powrot" />
+    </RelativeLayout>
+
+</ScrollView>
